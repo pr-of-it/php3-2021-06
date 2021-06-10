@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<project default="up">
+
+    <target name="up">
+        <echo msg="Composer install" />
+        <exec command="composer install" dir="/app" checkreturn="true" passthru="true"/>
+    </target>
+
+</project>
